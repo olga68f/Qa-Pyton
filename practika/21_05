@@ -1,0 +1,33 @@
+a = 'Иван'
+b = "Иванов"
+a = 'Иван'
+
+print(a+b)
+
+
+
+
+my_str = 'Ivan Ivanov'
+print(len(my_str))
+print(my_str.upper())
+print(my_str.lower())
+
+
+a=input()
+b=input()
+my_dict = {'name':a}
+a = list(my_dict.keys()) 
+b = list(my_dict.values()) 
+c = list(zip(a,b)) 
+print(c)
+
+my_dict = {'name':a}
+my_dict = {'tel':"+79045676767"}
+a = list(my_dict.keys())
+b = list(my_dict.values())
+c = list(zip(a,b))
+print(c)
+
+
+
+

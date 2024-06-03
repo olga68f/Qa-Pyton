@@ -1,0 +1,10 @@
+def is_uniq(lst):
+   
+    uniq_set = set(lst)
+
+
+    return len(uniq_set) == len(lst)
+
+
+print(is_uniq([1,2,3,4,5]))
+print(is_uniq([1,2,3,4,5,1]))
